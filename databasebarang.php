@@ -73,7 +73,7 @@ if (isset($_POST["gantikesiap"])) {
   <body>
     <form action="" method="post">
     <nav class="navbar navbar-primary sticky-top bg-primary flex-md-nowrap p-0">
-      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="index.php" style="color: wheat !important;">Bang J Grsoir</a>
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="index.php" style="color: wheat !important;">king market</a>
         <input name="keyword" class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
         <button name="cari" class="btn btn-outline-light my-2 my-sm-0" type="submit">Cari</button>
         <ul class="navbar-nav px-3">

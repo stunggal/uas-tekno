@@ -77,7 +77,7 @@ $tglsekarang = date("d-m-y");
     <link href="carousel.css" rel="stylesheet">
     <link href="album.css" rel="stylesheet">
 
-    <title>Bang J Grosir</title>
+    <title>king mart</title>
   </head>
 
   <!-- start body -->
@@ -85,7 +85,7 @@ $tglsekarang = date("d-m-y");
 
   <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
-        <a class="navbar-brand" href="#">Bang J Grosir</a>
+        <a class="navbar-brand" href="#">king mart</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -124,32 +124,32 @@ $tglsekarang = date("d-m-y");
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="first-slide" src="img/slides/duy-pham-Cecb0_8Hx-o-unsplash.jpg" alt="First slide">
+            <img class="first-slide" src="img/slides/11.jpg" alt="First slide">
             <div class="container">
               <div class="carousel-caption text-left">
-                <h1>Example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <h1>Penjual Terpercaya.</h1>
+                <p>beli sekarang di toko kami yang insyaallah aman dan terpercaya 100% anamah atau bisa pesan disini dengan mambuat akun baru</p>
                 <p><a class="btn btn-lg btn-primary" href="daftar.php" role="button">Daftar Sekarang</a></p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="second-slide" src="img/slides/slide2.jpg" alt="Second slide">
+            <img class="second-slide" src="img/slides/2.jpg" alt="Second slide">
             <div class="container">
               <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <h1>Siap untuk berbelanja apapun itu?.</h1>
+                <p>tanpa harus berfikir panjang langsung pesan di toko kami dengan kesepakatan yang sangat luar biasa dan yang terpenting hanya ada di toko kami</p>
                 <p><a class="btn btn-lg btn-primary" href="signin.php" role="button">Masuk Sekarang</a></p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="third-slide" src="img/slides/slide3.jpg" alt="Third slide">
+            <img class="third-slide" src="img/slides/3.webp" alt="Third slide">
             <div class="container">
               <div class="carousel-caption text-right">
-                <h1>One more for good measure.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                <h1>Tim pengembang</h1>
+                <p>website ini di buat oleh tim kami untuk menyelesaikan tugas technopreurship pada mata kuliah di semester 6 </p>
+                <p><a class="btn btn-lg btn-primary" href="profile.php" role="button">lihat profil</a></p>
               </div>
             </div>
           </div>
@@ -172,24 +172,38 @@ $tglsekarang = date("d-m-y");
       <div class="container marketing">
 
         <!-- Three columns of text below the carousel -->
+        <h2 class="text-center">STAFF ADMIN</h2>
+        <br>
         <div class="row">
           <div class="col-lg-4">
-            <img class="rounded-circle" src="img/slides/slide3.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+            <img class="rounded-circle" src="img/wahid.jpeg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Wahid alfaridsi</h2>
+            <p>seorang web programmer yang sedang belajar di universitas darussalam gontor proram studi teknik informatika dan sedang semester 6</p>
+            <p><a class="btn btn-primary" href="profile.php" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <img class="rounded-circle" src="img/slides/duy-pham-Cecb0_8Hx-o-unsplash.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+            <img class="rounded-circle" src="img/siraj.jpeg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Siraj Hammam</h2>
+            <p>setelah mengerjakan semua tugas yang ada, dia langsung mengerjakan website ini</p>
+            <p><a class="btn btn-primary" href="profile.php" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <img class="rounded-circle" src="img/slides/duy-pham-Cecb0_8Hx-o-unsplash.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+            <img class="rounded-circle" src="img/wahyu.jpeg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Wahyu Prasetyo Aji</h2>
+            <p>disela-sela kesibukannya, dia masih menyempatkan diri untuk mengembangkan website ini</p>
+            <p><a class="btn btn-primary" href="profile.php" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="img/taufan.jpeg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Taufan Eka</h2>
+            <p>selain menjabat sebagai pres mahasiswa, sebagai projek managemen masih bisa digolongkan sebagai orang sukses</p>
+            <p><a class="btn btn-primary" href="profile.php" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="img/satriyo.jpeg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Satriyo Pudjo</h2>
+            <p>untuk seseorang yang tergolong sibuk dia masih bisa menyempatkan diri untuk membantu tim yang sedang membangun website ini</p>
+            <p><a class="btn btn-primary" href="profile.php" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 

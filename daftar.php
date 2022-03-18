@@ -4,16 +4,16 @@ require 'functions.php';
 
 
 
-$getid = mysqli_query($conn, "SELECT * from user");
-$getjumlah = mysqli_fetch_assoc($getid);
-$counting = count($getjumlah);
+// $getid = mysqli_query($conn, "SELECT * from user");
+// $getjumlah = mysqli_fetch_assoc($getid);
+// $counting = count($getjumlah);
 
-$no = 2;
-while ($roww = mysqli_fetch_assoc($getid)) {
-  $no++;
-  $idnya = "usr";
-  $getidreal = $idnya.$no;
-}
+// $no = 2;
+// while ($roww = mysqli_fetch_assoc($getid)) {
+//   $no++;
+//   $idnya = "usr";
+//   $getidreal = $idnya.$no;
+// }
 
 
 if ( isset($_POST["register"]) ) {
@@ -65,8 +65,6 @@ if ( isset($_POST["register"]) ) {
     <form class="form-signin" action="" method="post">
       <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
       <h1 class="h3 mb-3 font-weight-normal">Masuk</h1>
-
-      <input type="hidden" name="idreal" value="<?= $getidreal; ?>">
 
       <label for="inputnamadepan" class="sr-only">Nama depan</label>
       <input name="namadepan" type="text" id="inputnamadepan" class="form-control" placeholder="Nama depan" required autofocus>

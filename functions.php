@@ -35,7 +35,7 @@ function pesan($pesan){
 
     // query insert
     $queryinsert = "INSERT INTO pemesanan VALUES
-    ('$iduser', '$idbarang', '$jumlahpesanan', '$totalharga', '$plantanggalambil', '','$currenttime','','$planwaktuambil', '$currentdate', 'masih disiapkan', '')
+    ('', '$iduser', '$idbarang', '$jumlahpesanan', '$totalharga', '$plantanggalambil', '','$currenttime','','$planwaktuambil', '$currentdate', 'masih disiapkan', '')
 ";
 
     // qwery insert pesanan
@@ -62,7 +62,7 @@ function querytampil($querytampil) {
 function registrasi($data){
     global $conn;
 
-    $idreal = $data["idreal"];
+    // $idreal = $data["idreal"];
     $username = strtolower(stripslashes($data["username"]));
     $pass = mysqli_real_escape_string($conn, $data["pass"]);
     $konpass = mysqli_real_escape_string($conn, $data["konpass"]);
@@ -93,7 +93,7 @@ function registrasi($data){
     $password = password_hash($pass, PASSWORD_DEFAULT);
 
     // tambahkan user baru k database
-    mysqli_query($conn, "INSERT INTO user VALUES ('$idreal', '$username', '$password', '')");
+    mysqli_query($conn, "INSERT INTO user VALUES ('', '$username', '$password')");
 
     return mysqli_affected_rows($conn);
 
@@ -159,7 +159,7 @@ function uploadbarang($data){
     
 
     // query upbarang
-    $queryupbarang = "INSERT into barang values ('$finalid', '$namabarang', '$hargasatuan', '$stok', '$hargaasli', '$hargajual', '$hargaecer', '$merek', '$kategori', '$warna', '$ketlain', '$gambar', '') ";
+    $queryupbarang = "INSERT into barang values ('$finalid', '$namabarang', '$hargasatuan', '$stok', '$hargaasli', '$hargajual', '$hargaecer', '$merek', '$kategori', '$warna', '$ketlain', '$gambar', '', '1') ";
 
     mysqli_query($conn, $queryupbarang);
 
@@ -206,7 +206,6 @@ function upgambar(){
     return $namafilebaru;
     
 }
-
 
 function ubahdat(){
     global $conn;

@@ -12,7 +12,9 @@ require 'functions.php';
 
 // query tabel
 $tampil = query("SELECT * FROM pemesanan, barang, user where pemesanan.idbarang = barang.idbarang and user.iduser = pemesanan.iduser and status = 'siap diambil'");
-
+// $tampil = query("SELECT * FROM pemesanan");
+// var_dump($tampil);
+// die;
 // query buat nerubah ke siap di ambil
 
 
@@ -67,7 +69,7 @@ if (isset($_POST["gantikesudah"])) {
 
   <body>
     <nav class="navbar navbar-primary sticky-top bg-primary flex-md-nowrap p-0">
-      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="index.php" style="color: wheat !important;">Bang J Grsoir</a>  
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="index.php" style="color: wheat !important;">king market</a>  
 
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">

@@ -11,6 +11,8 @@ if (!isset($_SESSION["login"])) {
 require 'functions.php';
 
 $usr = $_SESSION["bawadataid"];
+// var_dump($_SESSION["bawadataid"]);
+// die;
 
 // query tabel
 $tampil = query("SELECT * FROM pemesanan, barang where pemesanan.idbarang = barang.idbarang and iduser = '$usr' and status = 'masih disiapkan'");
@@ -38,7 +40,7 @@ $tampil = query("SELECT * FROM pemesanan, barang where pemesanan.idbarang = bara
 
   <body>
     <nav class="navbar navbar-primary sticky-top bg-primary flex-md-nowrap p-0">
-      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="index.php" style="color: wheat !important;">Bang J Grsoir</a>  
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="index.php" style="color: wheat !important;">king market</a>  
       
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
